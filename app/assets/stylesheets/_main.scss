@@ -1,0 +1,90 @@
+.main {
+  padding-top: 150px;
+}
+.slick_slide {
+  width: 100vw;
+  height: auto;
+}
+.news {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.News_logo {
+  width: 140px;
+}
+.news_history {
+  display: flex;
+}
+
+ul{
+  margin:35px;
+  padding:0;
+  line-height:1.8;
+  width:40%;
+  list-style:none;
+}
+ul li{
+  position:relative;
+  margin:0 0 10px;
+  padding:0 5px 10px 8em;
+  border-bottom:1px dotted #ccc;
+}
+ul li span.date{
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  width:6em;
+  margin:0;
+  padding:0 0 0 5px;
+}
+
+.p-twitter-box{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+  margin:2rem auto;
+  max-width:450px;
+  width:100%;
+}
+.p-twitter-box .p-twitter-title{
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0 2em 0;
+  font-size: 12px;
+}
+.p-twitter-box .twitter-tweet{
+  margin:0 !important;
+}
+.p-twitter-box p{
+  display:none;
+}
+.p-twitter-box .p-twitter-blue{
+  background: #1da1f2;
+}
+
+.profile {
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+.profile_title {
+  width: 140px;
+  margin-bottom: 20px;
+}
+.profile_container {
+  display: flex;
+}
+.profile_icon {
+width: 200px;
+margin-right: 50px;
+}
+.profile_name_text {
+  display: flex;
+  flex-direction: column;
+}
+.profile_name {
+width: 200px;
+margin-bottom: 30px;
+}
+.profile_text {
+  height: 120px;
+}

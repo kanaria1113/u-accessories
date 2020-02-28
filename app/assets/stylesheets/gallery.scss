@@ -1,0 +1,40 @@
+.gallery_index {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 150px;
+  background-color: #c8cfc5;
+  height: 100vh; 
+}
+.gallery_title {
+  position: relative;
+  height: 100px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+.gallery_logo {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.tegakiflower {
+  width: 300px;
+  position: absolute;
+  top: 20px;
+}
+
+.gallery_container {
+  margin-top: 50px;
+}
+.gallery_list {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+}
+.gallery_pic {
+  width: 200px;
+  border: double 7px #ccbf69;
+  background: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}

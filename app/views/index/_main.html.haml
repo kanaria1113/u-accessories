@@ -1,0 +1,49 @@
+.main
+  .slider
+    = image_tag 'slick/slide-0.png'
+    = image_tag 'slick/slide-1.png'
+    = image_tag 'slick/slide-2.png'
+    = image_tag 'slick/slide-3.png'
+    = image_tag 'slick/slide-4.png'
+  .news
+    .news_logo
+      = image_tag "Menu/News_y.png", alt: "ニュース", class: "News_logo"
+    .news_history
+      %ul
+        %li
+          %span.date> 2020.2.27
+          新作アップしました。
+        %li
+          %span.date> 2020.2.25
+          オーダー品完成♡
+        %li
+          %span.date> 2020.2.19
+          新作アップしました。
+        %li
+          %span.date> 2020.2.13
+          新作３点完売しました。
+        %li
+          %span.date> 2020.2.11
+          新作ピアス制作中
+        %li
+          %span.date> 2020.2.7
+          新作３点完売しました。
+
+ 
+      #twitter-color.p-twitter-box
+        .p-twitter-title.p-twitter-blue
+          %i.fab.fa-twitter
+          Twitter
+        %a.twitter-timeline{"data-height" => "500", "data-theme" => "light", :href => "https://twitter.com/Upiasuseisaku?ref_src=twsrc%5Etfw"} Tweets by Upiasuseisaku
+        %script{:async => "", :charset => "utf-8", :src => "https://platform.twitter.com/widgets.js"}
+
+
+  .profile
+    .profile_title
+      = image_tag "Profile/profile_bl", alt: "プロフィール", class: "profile_title"
+    .profile_container
+      .profile_user_icon
+        = image_tag "Profile/profile_icon", alt: "プロフィールアイコン", class: "profile_icon"
+      .profile_name_text
+        = image_tag "Profile/name", alt: "プロフィールネーム", class: "profile_name"
+        = image_tag "Profile/profile_text", alt: "プロフィールテキスト", class: "profile_text"

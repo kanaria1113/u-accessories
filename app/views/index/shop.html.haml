@@ -1,0 +1,32 @@
+= render 'header-no-news'
+.shop_index
+  .shop_title
+    = image_tag "Shop/tegakihanaki.png", alt: "手書き花", class: "tegakihanaki"
+    = image_tag "Menu/Shop.png", alt: "ショップ", class: "shop_logo"
+  .shop_container
+    .shop_several
+      3件中 1-3件表示
+    .item_list
+      .shop_item
+        = link_to image_tag(src="Shop/pierce1-1.jpg", alt: "ピアス1-1", class: "item_pic"), 'https://item.mercari.com/jp/m68352484509/'
+        .shop_item_name
+          春色半球クリアピアス
+        .shop_item_price
+          ¥630
+        = image_tag "Shop/soldout", alt: "ソールドアウト", class: "soldout"
+
+      .shop_item
+        = link_to image_tag(src="Shop/pierce2-1.jpg", alt: "ピアス2-1", class: "item_pic"), 'https://item.mercari.com/jp/m98971116478/'
+        .shop_item_name
+          春色半球クリアピアス
+        .shop_item_price
+          ¥630
+        = image_tag "Shop/soldout", alt: "ソールドアウト", class: "soldout"
+
+      .shop_item
+        = link_to image_tag(src="Shop/pierce3-1.jpg", alt: "ピアス3-1", class: "item_pic"), 'https://item.mercari.com/jp/m16270134296/'
+        .shop_item_name
+          春色半球クリアピアス
+        .shop_item_price
+          ¥630
+        = image_tag "Shop/soldout", alt: "ソールドアウト", class: "soldout"

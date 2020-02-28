@@ -1,0 +1,24 @@
+.footer
+  .footer_contact
+    = image_tag "footer/Contact.png", size: "150x70", alt: "コンタクト", class: "footer_contact_logo"
+    .footer_contact
+      お問い合わせフォーム
+      %br
+      ご依頼やご相談などございましたら
+      %br
+      下記のフォームかTwitterのDMからお問い合わせください
+    .contact_form
+      %form{action: "https://formspree.io/kana1113@hotmail.co.jp",method: "POST"}
+        .form-group
+          .form_name
+            name
+          %input#name.form{name: "name",type: "text", required: ""}/
+          .form_name
+            email
+          %input#email.form{name: "email",type: "email",required: ""}/
+          .form_name
+            message
+          %textarea#message.form{cols: "40", name: "message", rows: "10",required: ""}
+        %button.btn.btn-primary{type: "submit"} 送信する
+  .footer_cpyright
+    = image_tag "footer/cpyright.png", size: "300x20", alt: "コピーライト", class: ".footer_contact_logo", :target=>["_blank"]

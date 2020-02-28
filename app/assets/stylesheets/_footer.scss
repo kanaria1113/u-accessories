@@ -1,0 +1,40 @@
+.footer {
+  background-color: #d4d9d3;
+  text-align: center;
+}
+
+.footer_contact_logo {
+  padding-top: 20px;
+  margin-left: 60px;
+  display: flex;
+}
+
+.footer_contact{
+  font-size: 20px;
+}
+.form_name {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+input#name.form {
+  width: 30%;
+}
+input#email.form {
+  width: 30%;
+}
+textarea#message.form {
+  width: 50%;
+  height: 200px;
+  resize: none;
+}
+.btn.btn-primary {
+  width: 250px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
