@@ -1,13 +1,7 @@
 .main
-  .slider
-    = image_tag 'slick/slide-0.png'
-    = image_tag 'slick/slide-1.png'
-    = image_tag 'slick/slide-2.png'
-    = image_tag 'slick/slide-3.png'
-    = image_tag 'slick/slide-4.png'
   .news
     .news_logo
-      = image_tag "Menu/News_y.png", alt: "ニュース", class: "News_logo"
+      = image_tag "Menu/News_y.png", alt: "ニュース", id: "News_logo", class: "anchor"
     .news_history
       %ul
         %li
@@ -40,10 +34,11 @@
 
   .profile
     .profile_title
-      = image_tag "Profile/profile_bl.png", alt: "プロフィール", class: "profile_title"
+      = image_tag "Profile/profile_bl.png", alt: "プロフィール", id: "profile_logo", class: "anchor"
     .profile_container
       .profile_user_icon
         = image_tag "Profile/profile_icon.png", alt: "プロフィールアイコン", class: "profile_icon"
       .profile_name_text
         = image_tag "Profile/name.png", alt: "プロフィールネーム", class: "profile_name"
         = image_tag "Profile/profile_text.png", alt: "プロフィールテキスト", class: "profile_text"
+        

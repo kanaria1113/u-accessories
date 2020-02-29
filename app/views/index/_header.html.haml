@@ -3,9 +3,15 @@
     = image_tag "Menu/＊U＊-Accessories-.png", alt: "タイトル", class: "header_title_logo"
   .header_menu
     = link_to image_tag(src="Menu/Top.png", alt: "トップ", class: "menu_icon_top"), root_path
-    = link_to image_tag(src="Menu/News.png", alt: "ニュース", class: "menu_icon_news"), "#"
-    = link_to image_tag(src="Menu/Profile.png", alt: "プロフィール", class: "menu_icon_profile"), "#"
+
+    = link_to image_tag(src="Menu/News.png", alt: "ニュース", class: "menu_icon_top"), "#News_logo"
+
+    = link_to image_tag(src="Menu/Profile.png", alt: "プロフィール", class: "menu_icon_top"), "#profile_logo"
+
     = link_to image_tag(src="Menu/Gallery.png", alt: "ギャラリー", class: "menu_icon_gallery"), gallery_path
+    
     = link_to image_tag(src="Menu/Shop.png", alt: "ショップ", class: "menu_icon_shop"), shop_path
-    = link_to image_tag(src="Menu/Contact.png", alt: "コンタクト", class: "menu_icon_contact"), "#"
+
+    = link_to image_tag(src="Menu/Contact.png", alt: "コンタクト", class: "menu_icon_top"), "#contact_logo"
+
     = link_to image_tag(src="Menu/twitter.png", alt: "ツイッター", class: "menu_icon_twitter"), 'https://twitter.com/Upiasuseisaku'

@@ -1,15 +1,14 @@
 .main {
   padding-top: 150px;
 }
-.slick_slide {
+.slick-initialized .slick-slide {
   width: 100vw;
-  height: auto;
 }
 .news {
   margin-top: 20px;
   margin-left: 60px;
 }
-.News_logo {
+#News_logo {
   width: 140px;
 }
 .news_history {
@@ -66,7 +65,7 @@ ul li span.date{
   margin-left: 60px;
   margin-bottom: 30px;
 }
-.profile_title {
+#profile_logo {
   width: 140px;
   margin-bottom: 20px;
 }
@@ -87,4 +86,10 @@ margin-bottom: 30px;
 }
 .profile_text {
   height: 120px;
+}
+
+.anchor{
+  display: block;
+  padding-top: 160px;
+  margin-top: -160px;
 }
