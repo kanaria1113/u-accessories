@@ -85,9 +85,13 @@ width: 200px;
 margin-bottom: 30px;
 }
 .profile_text {
-  height: 120px;
+  display: flex;
+  font-size: 20px;
 }
 
+.profile_text_1{
+  margin-right: 30px;
+}
 .anchor{
   display: block;
   padding-top: 160px;
