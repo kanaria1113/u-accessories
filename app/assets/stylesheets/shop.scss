@@ -5,6 +5,7 @@
   height: 100vh;
   -webkit-text-size-adjust: 100%; 
 }
+
 .shop_title {
   position: relative;
   height: 100px;
@@ -20,9 +21,11 @@
   width: 300px;
   position: absolute;
   top: 20px;
+
 }
 .shop_several {
   margin: 0 auto;
+
 }
 .shop_several {
   width: 70vw;
@@ -34,10 +37,12 @@
   justify-content: center;
   margin-top: 20px;
   text-align: center;
+
 }
 .shop_item {
   margin-left: 20px;
   margin-right: 20px;
+  z-index: 1;
 }
 .item_pic {
   width: 200px;
